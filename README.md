@@ -4,7 +4,7 @@
 
 ## This model is a deep learning model for automaticaly generating textual sequences after learning 60 pieces of his works. 
 The whole process consists of three parts:
-1. scrawling selections from the Internet
+1. crawling selections from the Internet
 2. training an LSTM model
 3. initialize the input, build the inference model and get the results.
 
