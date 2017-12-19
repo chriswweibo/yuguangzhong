@@ -39,20 +39,6 @@ make.dict <- function(text, max.vocab=10000) {
     index=index+1
   }
   return(dic)
-
-  # text <- strsplit(text, '')
-  # dic <- list()
-  # idx <- 1
-  # for (c in text[[1]]) {
-  #   if (!(c %in% names(dic))) {
-  #     dic[[c]] <- idx
-  #     idx <- idx + 1
-  #   }
-  # }
-  # if (length(dic) == max.vocab - 1)
-  #   dic[["UNKNOWN"]] <- idx
-  # cat(paste0("Total unique char: ", length(dic), "\n"))
-  # return (dic)
 }
 
 batch.size = 64
@@ -114,12 +100,6 @@ get.label <- function(X) {
   }
   return (label)
 }
-
-
-#text=paste(readLines("D://mxnet/input.txt"),collapse="\n")
-# text=read_csv("E:/pathology/DFGDRaw.csv")$病理诊断 %>% 
-#   paste0(collapse = "") %>%
-#  str_replace_all(pattern = "[。,，,；,\\.,\\,,;,、,%,:,?,？,⑤,\\(]",replacement="")
 
 
 ret <- make.data(text, seq.len=seq.len)
