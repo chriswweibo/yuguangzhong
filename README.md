@@ -28,5 +28,5 @@ character-level treatment. But I do recommand the token-level idea, which will b
 speed and more acceptable results.
 ```
 
-This model is just for deep learning experiance and memorizing this great man. The params which are suggested by expertise and 
+This model is just for deep learning experience and memorizing this great man. The params which are suggested by expertise and 
 intuition, are absolutly not optimal. Consequently the final output is not guarantteed with Mr. Yu's qualtiy.  
